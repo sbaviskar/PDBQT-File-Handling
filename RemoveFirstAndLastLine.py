@@ -2,7 +2,7 @@
 #import os package to use file related methods
 import os
 print("Enter extension of file which you want ot modify \n eg : .txt , .pdbqt \n ")
-extenStr =input();      #for extension
+extenStr =input(" => ");      #for extension
 
 #for reading files from directory 
 for file in os.listdir():
@@ -33,5 +33,8 @@ for file in os.listdir():
         # notification 
         print(file,"\t-------Done-----")
         ##print(alist)
+      
+    
+ input(">>>>>>>>> Press Enter to  EXIT <<<<<<<<<");
 
 
