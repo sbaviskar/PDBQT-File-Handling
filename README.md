@@ -1,4 +1,4 @@
-# Trivial PDBQT File Handling  
+# PDBQT File Handling  
 **PDBQT** = (Protein Data Bank, Partial Charge (Q), & Atom Type (T))  
 It will remove 1st and last line from the file and recreate the file in a new folder 
 The operation will be performed on all files that exist in the folder 
